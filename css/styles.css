@@ -252,7 +252,7 @@ body {
   display: flex;
 }
 .links-header {
-  padding: 40px 0;
+  padding: 24px 0;
 }
 .list-display {
   display: flex;
@@ -292,4 +292,7 @@ body {
 }
 .header-display{
   display:flex;
+}
+.footer-items{
+  padding: 100px 0;
 }
