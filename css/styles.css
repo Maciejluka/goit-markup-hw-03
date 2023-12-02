@@ -127,7 +127,7 @@ body {
 
 .index-first-section-color {
   background-color: var(--navy-color);
-  padding: 188px 0;
+  
 }
 .section-team-color {
   background-color: var(--button-color);
@@ -295,4 +295,7 @@ body {
 }
 .footer-items{
   padding: 100px 0;
+}
+.main-section{
+  padding: 188px 0;
 }
