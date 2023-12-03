@@ -47,7 +47,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding:24px;
 }
 .logo-studio {
   color: var(--navy-color);
@@ -127,7 +126,6 @@ body {
 
 .index-first-section-color {
   background-color: var(--navy-color);
-  
 }
 .section-team-color {
   background-color: var(--button-color);
@@ -160,7 +158,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin:auto;
+  margin: auto;
 }
 
 .btn-order-service:hover,
@@ -215,7 +213,6 @@ body {
 .adress-font-normal {
   font-style: normal;
   display: flex;
-  justify-content: flex-end;
 }
 .images-text-app {
   color: var(--pcolor);
@@ -233,7 +230,6 @@ body {
 .index-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .header-list {
   display: flex;
@@ -278,24 +274,26 @@ body {
 .employers-job {
   text-align: center;
 }
-.visually-hidden {
-  position: absolute;
-  clip-path: inset(100%);
-}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 .footer-text {
   max-width: 264px;
-  padding:100px 0;
-}
-.header-display{
-  display:flex;
-}
-.footer-items{
   padding: 100px 0;
 }
-.main-section{
+.header-display {
+  display: flex;
+}
+.footer-items {
+  padding: 100px 0;
+}
+.main-section {
   padding: 188px 0;
+}
+
+.portfolio-main-ul {
+  display: flex;
+  justify-content: center;
+  width: calc((100% - 96px) / 5);
 }
