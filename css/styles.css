@@ -289,7 +289,6 @@ body {
 }
 .footer-text {
   max-width: 264px;
-  padding: 100px 0;
 }
 .header-display {
   display: flex;
@@ -314,12 +313,15 @@ body {
   column-gap: 24px;
   row-gap: 48px;
 }
-.portoflio-main {
-  padding-top: 96px;
-  padding-bottom: 120px;
+.portfolio-main {
+  padding: 96px 0 120px 0;
 }
 .images-div {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
   border-top: none;
+}
+.header-hidden{
+  visibility: hidden;
+
 }
