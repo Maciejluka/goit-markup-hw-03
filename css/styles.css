@@ -30,6 +30,7 @@ ol {
   --background-color: #ffffff;
   --links-color: #404bbf;
   --button-color: #f4f4fd;
+  --cornflower: #e7e9fc;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -89,6 +90,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  justify-content: center;
+  align-items: center;
 }
 .btn-sek:hover,
 .btn-sek:focus {
@@ -107,6 +113,8 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding: 32px 0;
+  margin-bottom: 8px;
 }
 
 .footer-items {
@@ -292,8 +300,25 @@ body {
   padding: 188px 0;
 }
 
-.portfolio-main-ul {
+.portfolio-button-ul {
   display: flex;
   justify-content: center;
-  width: calc((100% - 96px) / 5);
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.portfolio-img-ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portoflio-main {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.images-div {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
