@@ -48,6 +48,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-studio {
   color: var(--navy-color);
@@ -285,10 +287,7 @@ body {
 .employers-job {
   text-align: center;
 }
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 17.5px;
-}
+
 .header-display {
   display: flex;
 }
